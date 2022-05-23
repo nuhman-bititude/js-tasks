@@ -16,7 +16,6 @@ let countNumber = (number, sod) => {
   }
   return count;
 };
-number = 876;
+number = 55;
 sod = sumOfDigits(number);
-console.log(sod);
 count = console.log(countNumber(number, sod));
