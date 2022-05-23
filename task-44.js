@@ -3,12 +3,11 @@
 let divideArray = (array) => {
   newArray1 = [];
   for (let i = 0; i < array.length; i++) {
-      if(i%2==0){
-        
-      }else{
-
-      }
+    if (i % 2 == 0) {
+      return array[i];
+    } else {
+      return true;
+    }
   }
 };
-
-console.log(divideArray([1, 6, 99, 84, 0, 2, 66, 9]));
+console.log(divideArray(644, 6, 99, 84, 0, 2, 66, 9));
